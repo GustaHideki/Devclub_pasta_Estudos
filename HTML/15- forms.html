@@ -1,0 +1,40 @@
+<!--FORMS  
+    Capturar dados de entrada 
+    -input -> Entrada
+
+    Action-> Define para qual url será enviado os dados, vazio envia para mesma url
+    Method
+-GET (faz a comunicação pela url do site)
+-POST (faz a comunicação de forma 'escondida' para proteger dados(como cartão de credito))
+
+-->
+
+<form method="get"enctype= "multipart/form-data">
+    <h1>Digite seu Endereço:</h1>
+   <label>
+    Rua:
+   <input type="text" name="rua" autocomplete="street-address" autofocus/>
+</label> 
+
+<label>
+    Número:
+   <input type="text" name="numero"/>
+</label> 
+
+
+<label>
+    Email:
+   <input type="email" name="Email"/>
+</label> 
+
+<label>
+    Foto:
+   <input type="file" name="Arquivo"/>
+</label> 
+
+<button type="submit"> Enviar dados</button>
+<button type="reset">reset </button>
+
+
+</form>
+

@@ -1,0 +1,35 @@
+/* VAMOS FALAR DE POSITION 
+
+    postion:    stactic (padão) - Não aceita valores de top, bottom, right e left.
+    postion:    fixed- Fixa o elemento na tela.
+    postion:    sticky - age como um adesivo, fixa o elemento só onde eu determinar.
+    postion:    relative - posição relativa a posição inicial dele.
+    postion:    absolute - posição absoluta a algum elemento ou a pagina.
+                                -SE não tiver pai / pai for static -> Posiciona referente a pagina.
+                                -SE o pai NÃO for static -> posiciona referente ao pai.
+
+
+    propriedades:
+        -top
+        -bottom
+        -left
+        =right
+
+*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+height: 200vh;
+width: 200vw;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;    
+    background-color: #FF1396;    
+}
+
+
+

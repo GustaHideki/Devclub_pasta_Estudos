@@ -1,0 +1,4 @@
+*{  
+box-sizing: border-box;/* limita o width e heiht dentro dos parametros especificados*/
+box-sizing: content-box; /* aumenta os paramentros a partir do width e heiht*/
+}

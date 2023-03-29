@@ -1,0 +1,20 @@
+h1{
+    color:red;
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    color: blue;
+    font-size: 30; /* muda o tamanho da fonte.*/
+    font-weight:bold; /* especifica o peso ou a intesidade da fonte (ex.negrito)*/
+    font-family: 'Roboto Mono', monospace; /* permite que faça uma lista de prioridades de familias de fontes*/
+    font-style: italic; /* define o estilo da fonte*/
+    line-height: 40px; /* controla o espaçamento entre as linhas de um texto */
+    letter-spacing: 10px; /* especifica o espaço adicional entre os caracteres */
+    word-spacing: 40px; /* controla o espaçamento entre as palavras do texto */
+    text-align: center; /* usado para centralizar horizontamente o texto na página. */
+    text-decoration: underline; /* usado para definir a formatação de underline, overline no css*/
+    text-shadow: 10px 10px 10px red; /* acrescenta sombras ao texto.*/
+}
