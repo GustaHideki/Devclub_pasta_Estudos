@@ -2,5 +2,5 @@
 
 
 const nomes= ["João", "Maria"]
-console.log(nomes[0]!=[0])
-console.log(nomes[0]==[1])
+console.log("João" == "João")
+console.log("João"=="Maria")
