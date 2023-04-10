@@ -5,11 +5,11 @@ const number2 =25
 const number3 =5
 
 if (number1 > number2 && number3 <number1){
-    console.log(`${number1} é o maior número`)
+    console.log(`${number1} É o maior número`)
 }else if(number2 > number1 && number3 <number2){
-    console.log(`${number2} é o maior número`)
+    console.log(`${number2} É o maior número`)
 }else{
-    console.log(`${number3} é o maior número`)
+    console.log(`${number3} É o maior número`)
 }
 
 if (number1 < number2 && number3 >number1){
