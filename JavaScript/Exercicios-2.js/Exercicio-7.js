@@ -7,7 +7,7 @@
 
 
 
- const numero= 7
+ const numero= 4
  
  if(numero % 2 ===0){
    

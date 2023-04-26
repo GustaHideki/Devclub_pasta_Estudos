@@ -1,10 +1,14 @@
 /* faça um programa que diga se um numero é primo ou nao*/
+ const numero = 15
 
-const num = 5
 
-for(let i=2; i< num;i++)
-if(num % i ===0){console.log("O numero não é primo")
-break
-}else{ console.log(" O número é primo") 
-break}
+if (numero ==2){
+   console.log("É um número primo")}
 
+ for (let i=2; i<numero;i++){
+   if (numero % i ==0){
+      console.log("não é primo")
+      break
+   }else if(i==numero-1){
+      console.log("É um número primo")
+   }}
