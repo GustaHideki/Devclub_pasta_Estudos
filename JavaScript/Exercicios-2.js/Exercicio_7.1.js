@@ -1,5 +1,5 @@
 /* faça um programa que diga se um numero é primo ou nao*/
- const numero = 15
+ const numero = 17
 
 
 if (numero ==2){
