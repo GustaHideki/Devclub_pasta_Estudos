@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="valores">
+        <input class="valor" placeholder="Digite o primeiro valor:" type="number">
+        <p></p>
+        <input class="valor1" placeholder="Digite o segundo valor:" type="number">
+    </div>
+    <div class="resultados">
+        <p class="igual">=</p>
+        <p class="resultado">Resultado </p>
+    </div>
+    <div class="botoes">
+        <button onclick="somar()" class="somar">Somar</button>
+        <button onclick="subtrair()" class="subtrair">Subtrair</button>
+        <button onclick="divisao()" class="dividir">Dividir</button>
+        <button onclick="multiplicar()" class="multiplicar">Multiplicar</button>
+        <button onclick="potencia()" class="potenciacao"> Potenciação </button>
+        <button onclick="raiz()" class="raizQuadrada">Raiz Quadrada</button>
+    </div>
+
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black
+    }
+
+    .valores {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 250px;
+
+    }
+
+    .valor,
+    .valor1 {
+        margin-right: 20px;
+        background-color: grey;
+        height: 30px;
+        width: 160px;
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .valor::placeholder {
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    .valor1::placeholder {
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    .resultados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .igual {
+        color: white;
+        font-size: 40px;
+
+    }
+
+    .resultado {
+        background-color: grey;
+        height: 30px;
+        width: 160px;
+        border: none;
+        border-radius: 10px;
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    .somar,
+    .subtrair,
+    .dividir,
+    .multiplicar,
+    .potenciacao,
+    .raizQuadrada {
+        margin-right: 25px;
+        background-color: greenyellow;
+        height: 30px;
+        width: 140px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        color: black;
+        box-shadow: 0px 10px 20px 0px #AEC34659;
+    }
+
+    p {
+        color: aliceblue;
+        margin-right: 15px;
+        font-size: 30px;
+    }
+</style>
+
+<script>
+    const valor = document.querySelector(".valor")
+    const valor1 = document.querySelector(".valor1")
+    const resultado = document.querySelector(".resultado")
+    const operacao = document.querySelector("p")
+
+
+    function somar() {
+        const number1 = Number(valor.value)
+        const number2 = Number(valor1.value)
+        const result = number1 + number2
+        resultado.innerHTML = result
+        operacao.innerHTML = "+"
+    }
+
+    function subtrair(){
+        const number1 = Number(valor.value)
+        const number2 = Number (valor1.value)
+        const result = number1 - number2
+        operacao.innerHTML = "-"
+        resultado.innerHTML = result
+    }
+
+    function divisao(){
+        const number1 = Number(valor.value)
+        const number2 = Number(valor1.value)
+        const result = number1 / number2
+        operacao.innerHTML = "/"
+        resultado.innerHTML = result
+    }
+
+    function multiplicar(){
+        const number1 = Number(valor.value)
+        const number2 = Number(valor1.value)
+        const result = number1 * number2
+        operacao.innerHTML = "*"
+        resultado.innerHTML = result
+    }
+
+    function potencia(){
+        const number1 = Number(valor.value)
+        const number2 = Number(valor1.value)
+        const result = Math.pow(number1, number2)
+        operacao.innerHTML = "²"
+        resultado.innerHTML = result
+    }
+
+    function raiz(){
+        const number1 = Number(valor.value)
+        const number2 = Number(2)
+        const result = Math.sqrt(number1,number2)
+        operacao.innerHTML = " √"
+        valor1.placeholder = "2"
+        resultado.innerHTML = result
+    }
+
+
+
+
+</script>
+
+</html>
