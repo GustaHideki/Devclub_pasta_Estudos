@@ -1,0 +1,38 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    border: 1px solid black;
+    margin: 50px;
+    display: flex;
+    height: 700px; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+ 
+
+   }
+
+
+.box{
+    margin: 20px; 
+    text-align: center;
+    font-size: 20px;
+    background-color: chartreuse;
+    border: 5px solid purple;
+    font-weight: bold;
+    height: 100px;
+    flex-grow:1;
+}
+

@@ -1,0 +1,41 @@
+/*
+
+//usando dentro dos elementos (BOX)
+
+flex-basis: // delimita um tamanho de base para os itens.
+
+*/
+
+
+/*
+//usando dentro dos elementos (BOX)
+
+Flex grow: // aumenta ou diminui o espaçamento do item de acordo com o espaço livre .
+
+flex-grow: // É usado para definir um tamanho em que um elemento pode ocupar quando houver um espaço "Disponivel"
+
+*/
+
+
+
+/*
+flex-Shrink: // Ele é usado para controlar o quanto item vai encolher;
+
+*/
+
+/*
+flex: // O flex é um atalho que utilizamos quando queremos aplicar as propriedades: Basis, grow e shrink, no mesmo elemento. assim conseguimos economizar codigo.
+
+Exemplo: 
+flex:  100px     1        1;
+       basis   grow     shrink
+*/
+
+/*
+Order: Serve para fazer a troca da ordem dos itens. 
+
+*/
+
+
+/*
+Align-self: Serve para alinhar apenas um item.

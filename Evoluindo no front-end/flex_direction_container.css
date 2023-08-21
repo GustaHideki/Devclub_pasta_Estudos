@@ -1,0 +1,101 @@
+/*
+Propriedades Usadas dentro de um Container:
+
+Flex-direction: possui as propriedades:
+
+-row : alinha os itens em linha
+
+-row-reverse: alinha os itens em linha, mas inverte a sequencia
+
+-column: alinha em coluna
+
+-column-reverse: alinha em coluna, mas inverte os itens
+*/
+
+/*
+
+Propriedades Usadas dentro de um Container:
+
+Flex-Wrap: possui as propriedades:
+
+-no-wrap: não tem quebra de linha
+
+-wrap: o wrap faz a quedra de linha no elemento para ajustar sua altura
+
+-wrap-reverse: o wrap faz a quedra de linha no elemento para ajustar sua altura, mas inverte a ordem dos itens
+*/
+
+/*
+
+Propriedades Usadas dentro de um container:
+
+Flex-Flow: Ele serve para utilizar as propriedades: Flex-direction e Flex-wrap em uma unica linha de codigo;
+
+EX:
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+usando o flex-flow:
+.container{
+    display: Flex;
+    flex-flow: column wrap;
+}
+
+*/
+
+
+/*
+Propriedades dentro de um container:
+
+Justify-content: Ele serve para alinhar os itens em relação ao eixo PRINCIPAL
+
+- Center // alinha ao centro
+
+- flex-end // alinha ao final
+
+-flex-start // alinha ao começo
+
+-space-between // cria um espaço ENTRE os itens
+
+-space-around // cria um espaço em volta de todos os itens
+
+*/
+
+
+/*
+Propriedades dentro de um container:
+
+Align-itens: alinha os itens em relação ao eixo SECUNDARIO
+
+-Stretch: quando não definido a sua altura, por padrão ele preenche o espaço todo!(quando nao definido, ele é o padrao)
+
+-Center: // alinha os itens ao centro 
+
+-self-end: // alinha os itens ao final
+
+-self-start: // alinha os itens ao começo
+
+*/
+
+/*
+Propriedades dentro de um container:
+
+-align-content: Funciona parecido com o "align-itens" com uma particularidade, que antes dele alinhar os itens de acordo com os parametros, ele junta todos os "componentes" para ocupar o minimo de espaço possivel.
+
+
+*/
+
+
+
+/*
+Propriedades dentro do container: 
+
+-Gap: Cria um espaçamento entre os items.
+
+*/
+
+
